@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0befa3</color>
+    <color name="colorPrimaryDark">#2aabcb</color>
+    <color name="colorAccent">#fdffb1</color>
+    <color name="buttoncolor">#ffffff</color>
+    <color name="timer">#f11616</color>
+    <color name="appbar">#9c9e9d</color>
+    <color name="titlecolor">#fbff5a</color>
+    <color name="outer">#e2e2e2</color>
+    <color name="inner">#2da4a8</color>
+</resources>

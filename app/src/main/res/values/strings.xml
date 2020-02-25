@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Little Polymath</string>
+    <string name="copyright_169_2019_larkium">Copyright©2019 Larkium</string>
+    <string name="start">စတင်မည်</string>
+    <string name="application_name">Little Polymath</string>
+    <string name="skip_page">skip</string>
+    <string name="skip">ကျော်မည်</string>
+    <string name="question">Question</string>
+    <string name="time">20</string>
+    <string name="correct">Correct</string>
+    <string name="timeup">Time Up</string>
+    <string name="next">ဆက်ကစားမည်</string>
+    <string name="title">Title</string>
+    <string name="mark_hundred">အမှတ် ၁၀၀ ရရှိပါသည်။</string>
+    <string name="correct_text">အဖြေမှန်ကန်ပါသည်</string>
+    <string name="giveup">အရှုံးပေးမည်"</string>
+</resources>

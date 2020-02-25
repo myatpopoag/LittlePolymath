@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inner">
+
+
+    <ImageView
+        android:id="@+id/gift"
+        android:layout_width="173dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/gift" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </View>
+
+    <TextView
+        android:id="@+id/congratulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ဂုဏ်ယူပါတယ်"
+        android:textColor="@color/colorAccent"
+        android:textSize="23sp"
+        android:layout_marginStart="120dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </View>
+
+    <TextView
+        android:id="@+id/rewardText"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:text="သင် အမှတ် ၁၀၀၀ မှတ် ရရှိသဖြင့်
+ဆုလက်ဆောင်
+Little Polymath Keychain +
+Ball Pen +
+Bottle +
+Phone bill 1000 kyats +
+Little Polymath T-shirt
+တို့ကို ရရှိပါသည်။"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </View>
+
+    <Button
+        android:id="@+id/homebutton1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape5"
+        android:fontFamily="@font/montserrat"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

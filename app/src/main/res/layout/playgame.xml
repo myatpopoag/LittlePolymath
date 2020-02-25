@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inner"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/appbar"
+        android:minHeight="?actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp">
+
+            <ImageView
+                android:id="@+id/coinImage"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/coin" />
+
+            <TextView
+                android:id="@+id/coinText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/coinImage"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/QuizText"
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/timeText"
+                android:layout_toRightOf="@+id/coinText"
+                android:gravity="center"
+                android:text="Quiz Question"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/timeText"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="20"
+                android:textColor="@color/timer"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="left"
+        android:text="@string/title"
+        android:textColor="@color/titlecolor"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Question"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:text="@string/question"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="449dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </View>
+            <Button
+                android:id="@+id/buttonA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="buttonA"
+                android:background="@drawable/buttonshape2"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+
+            </View>
+            <Button
+                android:id="@+id/buttonB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="buttonB"
+                android:background="@drawable/buttonshape2"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </View>
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="buttonC"
+                android:background="@drawable/buttonshape2"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </View>
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="buttonD"
+                android:background="@drawable/buttonshape2"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
