@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.larkium.littlepolymath"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\LittlePolymath\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\LittlePolymath\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:5:5-44:19
+12        android:allowBackup="true"
+12-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:icon="@drawable/logo"
+15-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:8:9-38
+16        android:label="@string/app_name"
+16-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:7:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:12:9-19:20
+21            android:name="com.larkium.littlepolymath.SplashScreen"
+21-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:12:19-47
+22            android:theme="@style/Theme.AppCompat.NoActionBar" >
+22-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:13:13-63
+23            <intent-filter>
+23-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:15:17-69
+24-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:17:17-77
+26-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:20:9-22:65
+30            android:name="com.larkium.littlepolymath.HomeScreen"
+30-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:21:13-39
+31            android:theme="@style/Theme.AppCompat.NoActionBar" />
+31-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:22:13-63
+32        <activity
+32-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:23:9-25:65
+33            android:name="com.larkium.littlepolymath.credit"
+33-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:24:13-35
+34            android:theme="@style/Theme.AppCompat.NoActionBar" />
+34-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:25:13-63
+35        <activity
+35-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:26:9-28:65
+36            android:name="com.larkium.littlepolymath.Rule"
+36-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:27:13-33
+37            android:theme="@style/Theme.AppCompat.NoActionBar" />
+37-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:28:13-63
+38        <activity
+38-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:29:9-31:65
+39            android:name="com.larkium.littlepolymath.Reward"
+39-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:30:13-35
+40            android:theme="@style/Theme.AppCompat.NoActionBar" />
+40-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:31:13-63
+41        <activity
+41-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:32:9-34:65
+42            android:name="com.larkium.littlepolymath.StartGame"
+42-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:33:13-38
+43            android:theme="@style/Theme.AppCompat.NoActionBar" />
+43-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:34:13-63
+44        <activity
+44-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:35:9-37:65
+45            android:name="com.larkium.littlepolymath.TimeUp"
+45-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:36:13-35
+46            android:theme="@style/Theme.AppCompat.NoActionBar" />
+46-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:37:13-63
+47
+48        <meta-data
+48-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:39:9-41:57
+49            android:name="preloaded_fonts"
+49-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:40:13-43
+50            android:resource="@array/preloaded_fonts" />
+50-->E:\LittlePolymath\app\src\main\AndroidManifest.xml:41:13-54
+51    </application>
+52
+53</manifest>
